@@ -21,6 +21,7 @@ body {
 
 .container {
   margin: 0 auto;
+  padding: 0 10px;
   max-width: 650px;
 }
 
@@ -28,10 +29,13 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  li {
+    padding: 5px;
+  }
 }
 
 .header {
-  padding: 0;
+  padding: 5px;
   margin: 0;
   list-style-type: none;
   display: flex;
@@ -75,12 +79,14 @@ body {
 .post-meta-- {
   color: $dark-blue;
   opacity: .4;
+  font-size: 16px;
   font-weight: 900;
   font-family: $monospace;
   letter-spacing: 3px;
 }
 
 .post-link-- {
+  font-size: 24px;
   color: $dark-blue;
   margin-left: 5px;
   font-weight: 900;
@@ -90,4 +96,9 @@ body {
 
 .post-link--:hover {
   border-bottom: 2px solid $dark-blue;
+}
+
+.post {
+  line-height: 1.4;
+  font-size: 18px;
 }
